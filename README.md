@@ -17,4 +17,7 @@
 5. Apps inside Django
     - Machine learning apps with interactive model
     - Textual App for book reviews and summary
-    
+
+-------------------------
+# Sample
+![](Sample.png)
