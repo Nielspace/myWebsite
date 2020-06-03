@@ -12,9 +12,11 @@ class ArticleSerializer(serializers.ModelSerializer):
              'image',
              'image1',
              'image2',
+             'image3',
              
              'content',
              'content1',
              'content2',
+             'content3',
 
              'date_time',)

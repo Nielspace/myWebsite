@@ -16,11 +16,11 @@ class Article(models.Model):
     image1 = models.ImageField(upload_to = 'uploads/', default = 'empty1', blank=True)
     content1 = RichTextUploadingField(blank=True, null=True)
 
-    image2 = models.ImageField(upload_to = 'uploads/', default = 'empty2', blank=False)
+    image2 = models.ImageField(upload_to = 'uploads/', default = 'empty2', blank=True)
     content2 = RichTextUploadingField(blank=True, null=True)
 
-    # image3 = models.ImageField(upload_to = 'uploads/', default = 'empty3', blank=True)
-    # content3 = RichTextUploadingField(blank=True, null=True)
+    image3 = models.ImageField(upload_to = 'uploads/', default = 'empty3', blank=True)
+    content3 = RichTextUploadingField(blank=True, null=True)
 
 
     date_time = models.DateTimeField(default = timezone.now)
