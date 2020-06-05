@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+
+.sub__class h1{
+    padding: 0 0 0 4%;
+    font-family: 'Playfair Display', serif;
+    color:black;
+}
+
+
+.sub__class p{
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 0 4%;
+}
+
+
+.Cards{
+    display: grid;
+    padding:0 10%;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+    grid-gap: 20px;
+}
+
+.sub__class:nth-child(1){
+    padding:20px 10px;
+    background-color: rgb(173, 255, 237);
+}
+.sub__class:nth-child(4){
+    padding:20px 10px;
+    background-color: rgb(173, 255, 237);
+}
+
+.sub__class:nth-child(2){
+    padding:20px 10px;
+    background-color: rgb(246, 214, 255);
+}
+
+.sub__class:nth-child(3){
+    padding:20px 10px;
+    background-color: rgb(246, 214, 255);
+}
+.sub__class .img_class{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    /* border-radius: 25px; */
+    padding: 4%;
+}
+
+.sub__class:hover{
+    transform: scale(1.03);
+    transition: transform 0.09s ease ;
+}
