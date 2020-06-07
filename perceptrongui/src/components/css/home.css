@@ -210,3 +210,30 @@
     /* background: blueviolet; */
 }
 
+@media only screen and (max-width: 500px){
+    .main__class {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100%;
+        grid-gap: 1%;
+        padding: 10px 1%;
+        /* background: blueviolet; */
+        height: 30vh;
+    }
+
+    .section{
+        padding-top:1% ;
+        display: grid;
+        visibility: hidden;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+        grid-gap: 1.5%;
+        /* background: blueviolet; */
+    }
+
+    .Intro{
+        border-radius: 0%;
+    }
+
+
+}

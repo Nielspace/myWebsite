@@ -45,5 +45,69 @@ header{
     color: black;
   } */
 
+  .burger div{
+      width: 25px;
+      height: 2px;
+      background-color: rgb(43, 46, 226);
+      margin: 5px;
+  }
 
+  .burger{
+      display: none;
+  }
+
+
+  @media only screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+
+    
+    .brand{
+        font-size: 16px;
+    }
+
+    header{
+        display: fixed;
+        padding-left: 1%;
+    }
+
+    .nav__links {
   
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        right: 0px;
+        height: 92vh;
+        top:8vh;
+        z-index: 10;
+        background-color: rgb(0, 1, 87);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 1.5s ease-in;
+        
+  
+    }
+
+    .nav__links li{
+        margin-top: 10%;
+        margin-bottom: 15%;
+        opacity: 0;
+
+    }
+    .nav__links li a{
+        color: white;    
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+  }
+
+.nav__active{
+    transform: translateX(0);
+}

@@ -25,7 +25,9 @@ class FetchApi extends React.Component{
     render(){
         const {items} = this.state;
         return(
+
             <div className='Cards'>
+
                 {items.map(item=>
                     <div className='sub__class'>
                         <img className='img_class' src={item.image} />
@@ -34,8 +36,8 @@ class FetchApi extends React.Component{
                         
                         
                     </div>
+                    
                     )} 
-                
             </div>
         )
     }
