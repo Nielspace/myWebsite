@@ -1,13 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+
+.footer__main{
+    margin-top: 5%;
+    padding:3% 10% 10% 10%;
+    background-color:rgb(2, 18, 112);
+}
+.footer__main__div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+}
+
+
 h1{
     font-family:'Overpass', sans-serif;
     color: white;
     font-size: 20pt;
 }
-.footer__main{
-    margin-top: 5%;
-    padding:3% 5%;
-    background-color:  rgb(2, 18, 112);
+
+
+
+.footer__main h3{
+    color: white;
 }
+.footer__main a{
+    color: white;
+    text-decoration: none;
+    font-family:'Lato' ;
+}
+
+.footer__main li{
+    list-style: none;
+    padding-top: 1%;
+}
+
+.footer__sub{
+    margin-left: 5%;
+}
+
+.footer__legal{
+    margin-left: 5%;
+}
+
+.footer__main ul{
+    border-left: 1px solid rgb(0, 4, 255);
+    height: 100px;
+}
+
