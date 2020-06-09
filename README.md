@@ -2,6 +2,7 @@
 
 5th June 2020
 ![](Sample.png)
+![](features.png)
 
 # Mobile Sample
 
