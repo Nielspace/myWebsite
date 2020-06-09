@@ -61,7 +61,7 @@
 
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px){
     .sub__class h1{
         /* padding: 0 0 0 0%; */
         font-family: 'Playfair Display', serif;

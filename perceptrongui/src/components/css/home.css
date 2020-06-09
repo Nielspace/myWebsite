@@ -210,7 +210,7 @@
     /* background: blueviolet; */
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px){
     .main__class {
         display: grid;
         grid-template-columns: 1fr;

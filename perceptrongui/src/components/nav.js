@@ -1,5 +1,4 @@
 import React,{ useState }from 'react'
-import styled from 'styled-components';
 import './css/nav.css'
 
 
@@ -7,7 +6,7 @@ const Nav = ({open})=>{
     
     return(
         <header>
-            <h3 className='brand'>PerceptronAI</h3>
+            <h3 className='brand'>PerceptronAI.</h3>
             <nav>
                 
                 <ul className='nav__links' open={open}>
@@ -19,7 +18,11 @@ const Nav = ({open})=>{
                     <li><a href='#'>Blog</a></li>
                     <li>.</li>
                 </ul>
-
+                <div className="burger">
+                    <div className="line1"></div>
+                    <div className="line1"></div>
+                    <div className="line1"></div>
+                </div>
                 
             </nav>
 
@@ -33,10 +36,3 @@ const Nav = ({open})=>{
 export default  Nav;
 
 
-// <div className="burger" open = {open} onClick={()=>{
-//     setOpen(!open)
-//     styled.div`transform: translateX(0)`}}>
-//     <div className="line1"></div>
-//     <div className="line1"></div>
-//     <div className="line1"></div>
-// </div>
