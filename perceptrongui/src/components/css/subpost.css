@@ -1,0 +1,188 @@
+.sub__feature__post{
+    margin: 2% 10%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3%;
+    /* padding-bottom: 2%;
+    border-bottom: 1px solid rgb(199, 199, 199); */
+
+}
+
+.sub__one{
+    display: grid;
+    background-color: rgb(2, 106, 167);
+    background-image: url('../../Images/band-playing-music-on-stage-1644616.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 15px;
+    position: relative;
+}
+
+.sub__one:hover{
+    transform: scale(1.03);
+    transition: transform 0.09s ease ;
+    cursor: pointer;
+}
+
+.sub__one::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(226, 43, 43); */
+    opacity: 0.4;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+.sub__one > *{
+    position: relative;
+    z-index: 10;
+    color: white;
+
+}
+
+.sub__two{
+    display: grid;
+    background-color: rgb(192, 135, 3);
+    background-image: url('../../Images/seashore-scenery-2320691.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 15px;
+    position: relative;
+}
+
+.sub__two:hover{
+    transform: scale(1.03);
+    transition: transform 0.09s ease ;
+    cursor: pointer;
+}
+
+.sub__two::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(188, 112, 251);
+    opacity: 0.4;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+.sub__two > *{
+    position: relative;
+    z-index: 10;
+    color: white;
+
+}
+
+
+.sub__three{
+    display: grid;
+    background-color: rgb(192, 3, 135);
+    background-image: url('../../Images/photo-of-person-walking-along-seashore-2602545.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 15px;
+    position: relative;
+}
+
+.sub__three:hover{
+    transform: scale(1.03);
+    transition: transform 0.09s ease ;
+    cursor: pointer;
+}
+
+.sub__three::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 208, 133);
+    opacity: 0.4;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+.sub__three > *{
+    position: relative;
+    z-index: 10;
+    color: white;
+
+}
+
+.sub__one h1{
+    padding: 70% 3% 0 3%;
+
+}
+
+.sub__one p{
+    padding: 0% 3% 0 3%;
+
+}
+
+.sub__two h1{
+    padding: 70% 3% 0 3%;
+}
+.sub__two p{
+    padding: 0% 3% 0 3%;
+
+}
+
+.sub__three h1{
+    padding: 70% 3% 0 3%;
+}
+
+.sub__three p{
+    padding: 0% 3% 0 3%;
+}
+
+
+@media only screen and (max-width: 800px){
+    .sub__feature__post{
+        margin: 0% 5% 20% 5%;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr;
+        grid-gap: 3%;
+    
+    }
+
+    .sub__one h1{
+        padding: 55% 3% 0 3%;
+    
+    }
+    .sub__one p{
+        padding: 0% 3% 0 3%;
+    
+    }
+    
+    
+    .sub__two h1{
+        padding: 65% 3% 0 3%;
+    }
+
+    .sub__two p{
+        padding: 0% 3% 0 3%;
+    
+    }
+    
+    .sub__three h1{
+        padding: 55% 3% 0 3%;
+    }
+    .sub__three p{
+        padding: 0% 3% 0 3%;
+    
+    }
+
+}
