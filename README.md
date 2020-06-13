@@ -23,3 +23,15 @@ Thoughts.io [no-design]
 
 # No Productivity
 >12th June 2020
+
+# About Page 
+>13th June 2020
+
+Todo list for **Work Page**
+- [ ] Two Machine Learning Models
+  - [ ] Text Classifier -> flask
+  - [ ] Image classification
+- [ ] Two UI models
+- [ ] Two Educational models
+  - [ ] Random forest classification with d3.js
+  - [ ] Principal Component Analysis
