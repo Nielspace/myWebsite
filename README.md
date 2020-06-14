@@ -29,7 +29,7 @@ Thoughts.io [no-design]
 
 Todo list for **Work Page**
 - [ ] Two Machine Learning Models
-  - [ ] Text Classifier -> flask
+  - [x] Text Classifier 
   - [ ] Image classification
 - [ ] Two UI models
 - [ ] Two Educational models
