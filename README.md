@@ -35,3 +35,6 @@ Todo list for **Work Page**
 - [ ] Two Educational models
   - [ ] Random forest classification with d3.js
   - [ ] Principal Component Analysis
+
+# BERT
+>15th June 2020
