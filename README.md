@@ -38,3 +38,6 @@ Todo list for **Work Page**
 
 # BERT
 >15th June 2020
+
+# Text Classification with BERT
+>17th June 2020
