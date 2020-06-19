@@ -45,3 +45,6 @@ Todo list for **Work Page**
 
 # Text Classification with BERT [improving the model]
 >18th June 2020
+
+# Text Classification with BERT [Fine tuning the model]
+>19th June 2020
