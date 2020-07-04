@@ -1,4 +1,4 @@
-# Website Sample
+# Website Outline
 
 >5th June 2020
 ![](Sample.png)
