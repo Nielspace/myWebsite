@@ -1,4 +1,4 @@
-# Website Layout
+# Website layout
 
 >5th June 2020
 ![](Sample.png)
